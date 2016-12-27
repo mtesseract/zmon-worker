@@ -661,13 +661,8 @@ def build_default_context():
         'jsonpath_flat_filter': jsonpath_flat_filter,
         'filter_metrics': check_filter_metrics,
         'filter_metric': check_filter_metric,
-        # Some Mathematical functions from the math package:
-        'exp': math.exp,
-        'log': math.log,
-        'log10': math.log10,
-        'pow': math.pow,
-        'sqrt': math.sqrt,
-        'e': math.e
+        # Include math package in context:
+        'math': math
     }
 
 
